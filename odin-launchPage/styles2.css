@@ -1,0 +1,155 @@
+/* launch page 
+   lily comeau 
+   may 2023    */
+
+html { 
+  min-height: 100%;
+}
+
+*{ 
+  font: roboto; 
+  margin: 0px;
+  max-width: 100%;
+}
+
+.body { 
+  display: flex; 
+  flex-direction: column;
+  flex: auto; 
+  flex-wrap: wrap;
+}
+
+.header { 
+  background-color: #1F2937;
+  display: flex; 
+  flex-direction: row;
+  flex: auto; 
+  height: 3em; 
+  position: fixed; 
+  width: 100%; 
+  z-index: 4;
+}
+
+.header #checkbox_toggle { 
+  display: none; 
+}
+
+.header #hamburger { 
+  display: none; 
+}
+
+.header h1 { 
+  display: flex; 
+  align-items: flex-start;
+  font-size: 24px;
+  color: #fcbd00;
+  font-weight: bold;
+  flex: auto; 
+  flex-wrap: nowrap;
+  position: relative; 
+  left: 1em; 
+  top: 0.5em; 
+}
+
+.header ul { 
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative; 
+  list-style-type: none;
+  flex-wrap: nowrap;
+  top: 1em; 
+  align-items: center;
+}
+
+.header .links a { 
+  display: flex; 
+  text-decoration: none;
+  align-items: center;
+  font-size: 18px;
+  color: #fcbd00;
+  flex-wrap: nowrap;
+  margin-right: 1.5em; 
+}
+
+.header .links a:hover { 
+  color: #e5e7eb;
+}
+
+@media screen and (max-width: 720px) {
+  .header .links { 
+    display: none;
+  }
+}
+
+.section1 { 
+  background-color: #1F2937;
+  display: flex; 
+  flex-direction: row;
+  flex: auto;
+  position: relative; 
+  top: 3em;
+  width: 100%;
+  /* for editing purposes only */
+  border: red;
+  border-style: dashed;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section1 .section1a { 
+  width: 40%; 
+  border: yellow;
+  /* for editing purposes only */
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section1 .section1a h1 { 
+  color: #f9faf8; 
+  font-size: 48px;
+  width: 7em; 
+  font-weight: bolder;
+  position: relative; 
+  text-align: center;
+}
+
+.section1b { 
+  border: blue; 
+  border-style: dashed;
+  display: flex;
+  justify-content: center;
+  width: 59%;
+  min-width: 40em;
+}
+
+.section1 .section1b .image { 
+   border: greenyellow;
+   background-color: grey;
+   color:#e5e7eb; 
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;  
+   height: 15em; 
+   width: 30em; 
+}
+
+@media screen and (max-width: 1100px) {
+  .section1 .section1a { 
+    width: 50vh;
+  }
+
+  .section1 .section1b { 
+    width: 50vh;
+  }
+
+  .section1 .section1b img { 
+    width: 80vh; 
+  }
+}
+
