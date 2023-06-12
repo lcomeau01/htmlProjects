@@ -9,6 +9,7 @@
 .body
 { 
   display: flex;
+  /* the default layout for the website is flex collumn and nowrap */
   flex-wrap: nowrap;
   flex-direction: column;
   flex: auto;
