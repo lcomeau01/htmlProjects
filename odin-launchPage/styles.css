@@ -136,6 +136,7 @@
 }
 
 
+/* section1 */
 .section1 { 
   background-color: #1F2937;
   display: flex; 
@@ -210,56 +211,11 @@
   left: 0px; 
 }
 
-.section2{ 
-  padding: 50px 200px 100px 200px;
-}
 
-.section2 h2 { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 36px;
-  font-weight: bolder;
-  color: #1F2937; 
-  flex: auto;
-}
+/* section2 */
 
-.section2a { 
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; 
-  margin-top: 50px;
-  flex-wrap: nowrap;
-}
 
-.section2 .section2a .square { 
-  height: 150px; 
-  width: 150px;
-  border: 4px;
-  border-style: solid;
-  border-radius: 8px;
-  border-color: #3882f6;
-  
-}
-
-.section2b { 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; 
-  font-size: 18px;
-  color: grey; 
-  margin-top: 5px;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-  flex: auto;
-}
-
-.section2b p { 
-  width: 150px;
-}
-
+/* section3 */
 .section3
 { 
   background-color: #e5e7eb;
@@ -287,6 +243,8 @@
   font-weight: bold;
 }
 
+
+/* section4 */
 .section4 { 
   background-color: #3882f6;
   margin: 100px 200px 100px 200px;
