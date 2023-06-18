@@ -229,6 +229,16 @@
   justify-content: space-evenly;
 }
 
+.section2 .section2-2 .square { 
+  min-width: 50px;
+  min-height: 50px;
+  border: #3882f6;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+
 /* section3 */
 .section3
 { 
