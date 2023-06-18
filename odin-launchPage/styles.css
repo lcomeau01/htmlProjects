@@ -213,7 +213,10 @@
 
 
 /* section2 */
-
+.section2 { 
+  display: flex; 
+  justify-content: space-evenly;
+}
 
 /* section3 */
 .section3
